@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="DevMeetup 2026 — однодневная конференция для разработчиков. 25 сентября 2026 года, Москва.">
+<title>Конференция DevMeetup 2026 — 25 сентября, Москва</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="hero">
+  <nav class="nav">
+    <a class="logo" href="#hero">DevMeetup<span class="logo-accent">/26</span></a>
+    <div class="nav-links">
+      <a href="#about">О мероприятии</a>
+      <a href="#program">Программа</a>
+      <a href="#tickets">Билеты</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+    <a class="btn btn-primary btn-sm" href="#register">Регистрация</a>
+  </nav>
+
+  <div class="hero-body">
+    <p class="kicker"><span class="kicker-dot"></span>25 сентября 2026 &middot; Москва</p>
+
+    <h1 class="hero-title">
+      <span class="hero-title-over">Конференция</span>
+      <span class="hero-title-main">DEVMEETUP <span class="hero-title-year">2026</span></span>
+    </h1>
+
+    <p class="hero-sub">Однодневная конференция для разработчиков: доклады
+    практиков, нетворкинг и обсуждение актуальных технологий.</p>
+
+    <p class="countdown-caption">До начала конференции осталось</p>
+    <div id="countdown">Загрузка таймера...</div>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#register">Зарегистрироваться</a>
+      <a class="btn btn-ghost" href="#program">Смотреть программу</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="about" class="section">
+  <div class="section-head">
+    <span class="section-num">01</span>
+    <h2>О мероприятии</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p class="lead">DevMeetup — однодневная конференция для разработчиков:
+      доклады практиков, нетворкинг и обсуждение актуальных технологий.
+      Ждём вас 25 сентября 2026 года в Москве!</p>
+    </div>
+
+    <ul class="stats">
+      <li class="stat"><span class="stat-num">1</span><span class="stat-label">день в одном зале</span></li>
+      <li class="stat"><span class="stat-num">6</span><span class="stat-label">докладов и дискуссия</span></li>
+      <li class="stat"><span class="stat-num">300</span><span class="stat-label">мест в зале</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="program" class="section">
+  <div class="section-head">
+    <span class="section-num">02</span>
+    <h2>Программа</h2>
+  </div>
+
+  <ol class="timeline">
+    <li class="timeline-item">
+      <span class="timeline-time">10:00</span>
+      <div class="timeline-body">
+        <h3>Регистрация и приветственный кофе</h3>
+        <p class="timeline-note">Начало программы</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-time">11:00</span>
+      <div class="timeline-body">
+        <h3>Доклад: «Будущее веб-разработки»</h3>
+        <p class="timeline-note">Иван Петров</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-time">12:30</span>
+      <div class="timeline-body">
+        <h3>Доклад: «ИИ в повседневной работе»</h3>
+        <p class="timeline-note">Мария Сидорова</p>
+      </div>
+    </li>
+    <li class="timeline-item timeline-break">
+      <span class="timeline-time">14:00</span>
+      <div class="timeline-body">
+        <h3>Обед</h3>
+        <p class="timeline-note">Перерыв</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-time">15:00</span>
+      <div class="timeline-body">
+        <h3>Панельная дискуссия</h3>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-time">17:00</span>
+      <div class="timeline-body">
+        <h3>Нетворкинг и завершение</h3>
+        <p class="timeline-note">Завершение дня</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section id="tickets" class="section">
+  <div class="section-head">
+    <span class="section-num">03</span>
+    <h2>Билеты</h2>
+  </div>
+
+  <div class="tickets-grid">
+    <article class="ticket" data-ticket="Стандарт">
+      <h3 class="ticket-name">Стандарт</h3>
+      <p class="ticket-price"><span class="price-value">3000</span><span class="price-currency">руб.</span></p>
+      <ul class="ticket-features">
+        <li>Доступ ко всем докладам</li>
+      </ul>
+      <a class="btn btn-ghost btn-block" href="#register">Выбрать</a>
+    </article>
+
+    <article class="ticket ticket-featured" data-ticket="VIP">
+      <span class="ticket-badge">Популярный</span>
+      <h3 class="ticket-name">VIP</h3>
+      <p class="ticket-price"><span class="price-value">6000</span><span class="price-currency">руб.</span></p>
+      <ul class="ticket-features">
+        <li>Место в первом ряду</li>
+        <li>Обед со спикерами</li>
+        <li>Доступ ко всем докладам</li>
+      </ul>
+      <a class="btn btn-primary btn-block" href="#register">Выбрать</a>
+    </article>
+
+    <article class="ticket" data-ticket="Студенческий">
+      <h3 class="ticket-name">Студенческий</h3>
+      <p class="ticket-price"><span class="price-value">1500</span><span class="price-currency">руб.</span></p>
+      <ul class="ticket-features">
+        <li>По студенческому билету</li>
+      </ul>
+      <a class="btn btn-ghost btn-block" href="#register">Выбрать</a>
+    </article>
+  </div>
+</section>
+
+<section id="register" class="section">
+  <div class="register-card">
+    <div class="register-info">
+      <span class="section-num">04</span>
+      <h2>Регистрация</h2>
+      <p class="lead">Оставьте контакты и выберите тариф — подтверждение
+      придёт на почту, а место будет за вами.</p>
+      <p class="muted">Один день, шесть блоков программы и знакомство
+      с теми, кто делает продукты.</p>
+    </div>
+
+    <div class="register-form-wrap">
+      <form id="registerForm">
+        <label class="field">
+          <span class="field-label">Имя</span>
+          <input type="text" id="regName" name="name" placeholder="Как к вам обращаться" required>
+        </label>
+
+        <label class="field">
+          <span class="field-label">Email</span>
+          <input type="email" id="regEmail" name="email" placeholder="you@example.com" required>
+        </label>
+
+        <label class="field">
+          <span class="field-label">Тип билета</span>
+          <select id="regTicket" name="ticket">
+            <option value="Стандарт">Стандарт — 3000 руб.</option>
+            <option value="VIP">VIP — 6000 руб.</option>
+            <option value="Студенческий">Студенческий — 1500 руб.</option>
+          </select>
+        </label>
+
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Зарегистрироваться</button>
+      </form>
+      <p id="registerResult" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer id="contacts">
+  <div class="section-head">
+    <span class="section-num">05</span>
+    <h2>Контакты</h2>
+  </div>
+  <div class="footer-grid">
+    <div>
+      <p class="footer-brand">DevMeetup<span class="logo-accent">/26</span></p>
+      <p class="muted">Конференция для разработчиков<br>25 сентября 2026, Москва</p>
+    </div>
+    <div class="footer-contacts">
+      <p><span class="footer-label">Вопросы:</span> <a href="mailto:info@devmeetup.example">info@devmeetup.example</a></p>
+      <p><span class="footer-label">Телефон:</span> <a href="tel:+79005557788">+7 (900) 555-77-88</a></p>
+    </div>
+    <div class="footer-links">
+      <a href="#about">О мероприятии</a>
+      <a href="#program">Программа</a>
+      <a href="#tickets">Билеты</a>
+      <a href="#register">Регистрация</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
